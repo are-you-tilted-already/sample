@@ -1,7 +1,6 @@
 FROM python:3.9
 
-RUN apt-get update \        
-     apt-get install -y git
+RUN apt update && apt install -y git
 
 RUN git clone https://github.com/are-you-tilted-already/sample.git
 
